@@ -341,16 +341,16 @@
                                                 <td valign="top" class="keys">自我评价：</td>
                                                 <td valign="top" class="txt1">
 1.熟练的使用spring,springMVC,mybatis框架及springBoot框架进行快速开发<br>
-2.熟练的使用Java常用集合,了解JVM内存模型,了解线程池<br>
-3.熟悉ELK,熟悉ES的常用API,DSL语法,能够进行检索,聚合.监控ES的各种指标,搭建日志平台(filebeat+es+kibana)<br>
-4.熟悉MQ的基本特征,原理,能够使用kafka来进行应用解耦,削峰,横向拓展,构建数据管道,偏移量挑拨<br>
-5.熟悉常用SQL语法,了解mysql的数据模型，事务原理<br>
+2.熟练的使用Java常用集合,熟悉JVM内存模型,熟悉线程池<br>
+3.熟悉MQ的基本特征,原理,了解事务性消息/幂等性消息/顺序消息<br>
+4.熟悉mysql的数据模型，事务原理，回表机制<br>
+5.熟练使用常用linux命令,编写shell脚本,搭建各种运行环境(nginx,jenkins..),监控服务器进程,内存<br>
 6.熟练使用docker创建容器,编写自定义的Dockerfile文件,使用docker-compose进行容的快速编排<br>
-7.熟练使用常用linux命令,编写shell脚本,搭建各种运行环境(nginx,jenkins..),监控服务器进程,内存<br>
+7.熟悉ELK,熟悉ES的常用API,DSL语法,能够进行检索,聚合.监控ES的各种指标,搭建日志平台(filebeat+es+kibana)<br>
 8.能够使用nginx来进行负载均衡，熟悉nginx的基本配置,深入理解git的命令，能够负责项目的版本管理<br>
 9.熟悉正则表达式,熟练使用回溯引用,零宽断言,非贪婪,分组.. 能够匹配各种场景<br>
 10.熟悉基本的设计模式，能够运用到开发中<br>
-11.了解微信小程序的开发,能够进行基本的逻辑的编写</td>
+11.了解Dubbo的基本使用和基本设计原理</td>
 
                                                 </tr>
                                             </tbody>
@@ -396,10 +396,9 @@
                                                                                 <tr>
                                                                                     <td valign="top" class="keys">工作描述：</td>
                                                                                     <td valign="top" class="txt1">
-1.全球企业库的开发: 负责工商局页面数据的提取,入库。负责数据的提取,清洗<br>
-2.EDB(经济)数据的开发: 负责全国各式指标的多叉树的构建,负责指标匹配树的开发<br>
-3.kafka管理系统的开发和维护: 负责消息检索(按时间检索,按内容检索),偏移量挑拨,生成报表的开发<br>
-4.负责清洗系统的开发和维护: 使用ES来进行亿级别数据的统计,筛选,聚合和清洗<br>
+1.全球企业库的开发: 负责工商局页面数据的提取,清洗,入库。负责框架层级的封装<br>
+2.负责清洗框架的设计和选型: 基于ES的清洗框架，开发人员只需要简单配置或者定制就能进行数据清洗，支持实例横向扩展<br>
+3.kafka监控系统的开发和维护: 负责消息检索(独立消费者),nginx负载和redis分布式锁的开发接配置<br>
 </td>
 
                                                                                 </tr>
@@ -493,7 +492,7 @@
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td valign="top" class="keys">项目描述：</td>
-                                                                                    <td valign="top" class="txt1">项目是全球企业库，目标是收集海外的企业，股东，高管数据。搭建全球的企业库，能够完成股权穿透，投资关系。目前海外数据已经收集了一亿六千万条公司数据，已经在万得金融终端上线。</td>
+                                                                                    <td valign="top" class="txt1">项目是全球企业库(和企查查是竞品)，目标是收集海外的企业，股东，高管数据。搭建全球的企业库，能够完成股权穿透，投资关系。目前海外数据已经收集了一亿六千万条公司数据，已经在万得金融终端上线。</td>
                                                                                 </tr>
                                                                             </tbody>
                                                                         </table>
@@ -506,64 +505,10 @@
                                                                                 <tr>
                                                                                     <td valign="top" class="keys">责任描述：</td>
                                                                                     <td valign="top" class="txt1">
-1.负责工商局页面数据的提取,使用kafka消费者进行模块的解耦和简单的横向拓展,
-  解析下载的数据包,使用正则,Xpath.. 进行关键数据的抽取,入库,入ES。<br>
-2.负责数据的ETL,使用ES进行聚合工作,定位脏数据进行清洗<br>
-3.负责衍生数据EDB(经济)数据的开发,负责全国各式指标的多叉树的构建,负责指标匹配树的开发<br>
-4.负责股权穿透的模块,使用ES作为引擎,Redis进行高速缓存,进行股东和企业的关联</td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                                                                                    </tbody>
-                                                    </table>
-                                                </td>
-                                            </tr><tr>
-                                                                                                    <td class="p15">
-                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td valign="top" class="time">2020/3-至今</td>
-                                                                <td valign="top" class="rtbox">
-                                                                    <strong>kafka管理系统</strong>
-                                                                </td>
-                                                            </tr>
-                                                                                                                            <tr>
-                                                                    <td class="tb1" colspan="2">
-                                                                        <table cellspacing="0" cellpadding="0" border="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td valign="top" class="keys">所属公司：</td>
-                                                                                    <td valign="top" class="txt1">万得信息技术股份有限公司</td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                                                                                                                                                        <tr>
-                                                                    <td class="tb1" colspan="2">
-                                                                        <table cellspacing="0" cellpadding="0" border="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td valign="top" class="keys">项目描述：</td>
-                                                                                    <td valign="top" class="txt1">kafka管理系统是基于kafka的管理系统,目标是监控Topic的生产和消费情况,针对生产和消费不匹配的情况进行报警。为了方便的调整kafka偏移量,加快开发效率</td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                                                                                                                                                        <tr>
-                                                                    <td class="tb1" colspan="2">
-                                                                        <table cellspacing="0" cellpadding="0" border="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td valign="top" class="keys">责任描述：</td>
-                                                                                    <td valign="top" class="txt1">
-1.负责kafka消息的批量复制,转发的开发,跨分区的消息的检索(正则,时间)的开发<br>
-2.负责消息的报表生成(柱状图和折线图),消息数量变化的折线图,按天/小时/分为区间的柱状图<br>
-3.负责kafka批量偏移量挑拨,指定消费者全部挑拨的某个时刻的开发,<br>
-4.负责监控消费者的状态(是否存活,所属ip,消费即将过期报警)
+1.负责工商局页面数据的提取,进行数据的抽取整合成json,入库,入ES<br>
+2.负责结构化框架功能的封装和改进。支持csv，多次清洗。<br>
+3.负责数据的清洗，使用ES进行数据的筛选，定位脏数据进行清洗。<br>
+4.负责服务的监控，定位消费/数据问题，负责服务迁移，监控。<br>
 </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -578,7 +523,7 @@
                                                                                                     <table cellspacing="0" cellpadding="0" border="0">
                                                         <tbody>
                                                             <tr>
-                                                                <td valign="top" class="time">2020/9-2020/2</td>
+                                                                <td valign="top" class="time">2020/8-2020/1</td>
                                                                 <td valign="top" class="rtbox">
                                                                     <strong>数据清洗框架</strong>
                                                                 </td>
@@ -619,6 +564,59 @@
 4.负责清洗提取的搭建。默认采用es的滚动查询，配置查询语法。开发者可以自行扩展<br>
 5.负责清洗模块的搭建。默认采用xml格式，内部指定清洗方式，正则，js引擎，清洗bean。开发者可以自行扩展<br>
 6.负责入库模块的搭建，使用分布式锁+业务唯一性id来保证幂等消费<br>
+</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr><tr>
+                                                                                                    <td class="p15">
+                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="time">2020/1-2020/2</td>
+                                                                <td valign="top" class="rtbox">
+                                                                    <strong>kafka监控系统</strong>
+                                                                </td>
+                                                            </tr>
+                                                                                                                            <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">所属公司：</td>
+                                                                                    <td valign="top" class="txt1">万得信息技术股份有限公司</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">项目描述：</td>
+                                                                                    <td valign="top" class="txt1">主要功能监控消费积压，监控某个消息队列是否存在未消费的危险数据。附带的消息检索，转发，偏移量挑拨，消息报表。定时任务通过redis做分布锁，多个服务使用nginx做负载</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">责任描述：</td>
+                                                                                    <td valign="top" class="txt1">
+1.负责kafka消息的检索，是线程池+阻塞队列+redis的操作来提高并发效率<br>
+2.负责redis分布式锁的开发，多个实例定时去统计消费来提高稳定性，用分布式锁来限制资源浪费<br>3.配置nginx来进行简单发负载<br>
+4.负责监控消费者的状态(是否存活,所属ip,消费即将过期报警)
 </td>
                                                                                 </tr>
                                                                             </tbody>
